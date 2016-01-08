@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23BFBD41C4047A6003B6376 /* RCTGoogleMaps.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BFBD11C4047A6003B6376 /* RCTGoogleMaps.m */; settings = {ASSET_TAGS = (); }; };
+		E23BFBD51C4047A6003B6376 /* RCTGoogleMapsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E23BFBD31C4047A6003B6376 /* RCTGoogleMapsManager.m */; settings = {ASSET_TAGS = (); }; };
+		E23BFBD71C4055E6003B6376 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23BFBD61C4055E6003B6376 /* GoogleMaps.framework */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E23BFBC21C4044BE003B6376 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E23BFBC41C4044BE003B6376 /* libRCTGoogleMaps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTGoogleMaps.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23BFBD01C4047A6003B6376 /* RCTGoogleMaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleMaps.h; sourceTree = SOURCE_ROOT; };
+		E23BFBD11C4047A6003B6376 /* RCTGoogleMaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleMaps.m; sourceTree = SOURCE_ROOT; };
+		E23BFBD21C4047A6003B6376 /* RCTGoogleMapsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTGoogleMapsManager.h; sourceTree = SOURCE_ROOT; };
+		E23BFBD31C4047A6003B6376 /* RCTGoogleMapsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTGoogleMapsManager.m; sourceTree = SOURCE_ROOT; };
+		E23BFBD61C4055E6003B6376 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23BFBC11C4044BE003B6376 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23BFBD71C4055E6003B6376 /* GoogleMaps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23BFBBB1C4044BE003B6376 = {
+			isa = PBXGroup;
+			children = (
+				E23BFBD61C4055E6003B6376 /* GoogleMaps.framework */,
+				E23BFBC61C4044BE003B6376 /* RCTGoogleMaps */,
+				E23BFBC51C4044BE003B6376 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23BFBC51C4044BE003B6376 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23BFBC41C4044BE003B6376 /* libRCTGoogleMaps.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23BFBC61C4044BE003B6376 /* RCTGoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				E23BFBD01C4047A6003B6376 /* RCTGoogleMaps.h */,
+				E23BFBD11C4047A6003B6376 /* RCTGoogleMaps.m */,
+				E23BFBD21C4047A6003B6376 /* RCTGoogleMapsManager.h */,
+				E23BFBD31C4047A6003B6376 /* RCTGoogleMapsManager.m */,
+			);
+			name = RCTGoogleMaps;
+			path = RNGoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23BFBC31C4044BE003B6376 /* RCTGoogleMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23BFBCD1C4044BE003B6376 /* Build configuration list for PBXNativeTarget "RCTGoogleMaps" */;
+			buildPhases = (
+				E23BFBC01C4044BE003B6376 /* Sources */,
+				E23BFBC11C4044BE003B6376 /* Frameworks */,
+				E23BFBC21C4044BE003B6376 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTGoogleMaps;
+			productName = RNGoogleMaps;
+			productReference = E23BFBC41C4044BE003B6376 /* libRCTGoogleMaps.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23BFBBC1C4044BE003B6376 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Pimmr B.V";
+				TargetAttributes = {
+					E23BFBC31C4044BE003B6376 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E23BFBBF1C4044BE003B6376 /* Build configuration list for PBXProject "RCTGoogleMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E23BFBBB1C4044BE003B6376;
+			productRefGroup = E23BFBC51C4044BE003B6376 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23BFBC31C4044BE003B6376 /* RCTGoogleMaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23BFBC01C4044BE003B6376 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23BFBD41C4047A6003B6376 /* RCTGoogleMaps.m in Sources */,
+				E23BFBD51C4047A6003B6376 /* RCTGoogleMapsManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E23BFBCB1C4044BE003B6376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E23BFBCC1C4044BE003B6376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E23BFBCE1C4044BE003B6376 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTGoogleMaps;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E23BFBCF1C4044BE003B6376 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(inherited)",
+					"$(SRCROOT)/node_modules/react-native/React",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTGoogleMaps;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23BFBBF1C4044BE003B6376 /* Build configuration list for PBXProject "RCTGoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23BFBCB1C4044BE003B6376 /* Debug */,
+				E23BFBCC1C4044BE003B6376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23BFBCD1C4044BE003B6376 /* Build configuration list for PBXNativeTarget "RCTGoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23BFBCE1C4044BE003B6376 /* Debug */,
+				E23BFBCF1C4044BE003B6376 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23BFBBC1C4044BE003B6376 /* Project object */;
+}
