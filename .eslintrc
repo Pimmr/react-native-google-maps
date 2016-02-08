@@ -1,0 +1,14 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react-native"
+  ],
+  "rules": {
+    "id-length": 0,
+    "indent": 2,
+    "no-throw-literal": 0,
+    "react/prefer-es6-class": 0,
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 1
+  }
+}
